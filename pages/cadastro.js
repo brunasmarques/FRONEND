@@ -30,8 +30,4 @@ async function signUpEagle() {
     alert(data.message); // certifique-se que o backend retorna "message"
 
     window.location.href = "../index.html";
-  } catch (err) {
-    console.error(err);
-    alert("Erro ao cadastrar usuário!");
-  }
-}
+  } 
